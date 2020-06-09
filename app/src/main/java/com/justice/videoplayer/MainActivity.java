@@ -49,10 +49,10 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     }
 
     private void addVideosToList() {
-        String video_1 = "http://videocdn.bodybuilding.com/video/mp4/62000/62792m.mp4";
-        String video_2 = "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4";
-        String video_3 = "http://techslides.com/demos/sample-videos/small.mp4";
-        String video_4 = "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4";
+        String video_1 = getString(R.string.video_1);
+        String video_2 = getString(R.string.video_2);
+        String video_3 = getString(R.string.video_3);
+        String video_4 = getString(R.string.video_4);
         uriList = new ArrayList<>();
         uriList.add(Uri.parse(video_1));
         uriList.add(Uri.parse(video_2));
