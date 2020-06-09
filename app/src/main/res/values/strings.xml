@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">VideoPlayer</string>
+    <string name="https_www_jessica_com">https://www.jessica.com/</string>
+    <string name="female">Female</string>
+    <string name="jessi">Jessi</string>
+    <string name="website">Website</string>
+    <string name="gender">Gender</string>
+    <string name="nick_name">Nick name</string>
+    <string name="omondi">Omondi</string>
+    <string name="last_name">Last name</string>
+    <string name="jessica">Jessica</string>
+    <string name="first_name">First name</string>
 </resources>

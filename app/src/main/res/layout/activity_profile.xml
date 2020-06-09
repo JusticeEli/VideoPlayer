@@ -57,7 +57,7 @@
             android:layout_marginStart="50dp"
             android:layout_marginTop="50dp"
             android:layout_marginEnd="50dp"
-            android:text="First name"
+            android:text="@string/first_name"
             app:layout_constraintEnd_toStartOf="@+id/textView2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -68,7 +68,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="50dp"
-            android:text="Jessica "
+            android:text="@string/jessica"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             app:layout_constraintStart_toEndOf="@+id/textView"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -78,7 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:layout_marginTop="50dp"
-            android:text="Last name"
+            android:text="@string/last_name"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -87,8 +88,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="50dp"
-            android:text="Omondi"
+            android:layout_marginTop="40dp"
+            android:text="@string/omondi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold|italic"
             app:layout_constraintStart_toEndOf="@+id/textView3"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -98,7 +101,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:layout_marginTop="50dp"
-            android:text="Nick name"
+            android:text="@string/nick_name"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -108,7 +111,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:layout_marginTop="50dp"
-            android:text="Gender"
+            android:text="@string/gender"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -118,27 +121,19 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:layout_marginTop="50dp"
-            android:text="Website"
+            android:text="@string/website"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="50dp"
-            android:text="Bio"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="50dp"
-            android:text="Jessi"
+            android:layout_marginTop="40dp"
+            android:text="@string/jessi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold|italic"
             app:layout_constraintStart_toEndOf="@+id/textView6"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -147,8 +142,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="50dp"
-            android:text="Female"
+            android:layout_marginTop="35dp"
+            android:text="@string/female"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold|italic"
             app:layout_constraintStart_toEndOf="@+id/textView7"
             app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -158,20 +155,13 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="50dp"
-            android:text="https://www.jessica.com/"
+            android:text="@string/https_www_jessica_com"
             android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold|italic"
+
             app:layout_constraintStart_toEndOf="@+id/textView8"
             app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="50dp"
-            android:text="uit of Fig. 5-33. (a) Find u2/us as a function of k and Ri. (b) Let Ri = 1 kΩ. Find u2/u1 for k = 1, 10, 100, 1000, ∞. Repeat for Ri = ∞. (c)  Discuss the effects of Ri and k on the overall gain. Show that, for k = ∞ and Ri ≠ 0, the gain of the amplifier is independent of Ri and is equal to −R2/R1. (a) Apply KCL to currents leaving node A to obtain υυ υυ υ 1 1"
-            app:layout_constraintStart_toEndOf="@+id/textView9"
-            app:layout_constraintTop_toBottomOf="@+id/textView12" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

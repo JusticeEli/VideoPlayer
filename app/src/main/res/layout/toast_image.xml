@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/linearLayout"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="20dp"
+    app:cardBackgroundColor="@color/colorPrimaryLight"
+
+    app:cardUseCompatPadding="false"
     android:layout_height="wrap_content">
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@mipmap/subscribe">
 
-    </de.hdodenhof.circleimageview.CircleImageView>
-</LinearLayout>
+    </ImageView>
+</androidx.cardview.widget.CardView>
 
 
